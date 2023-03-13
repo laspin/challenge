@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-size-adjust: 100%;
+    /* colors */
+    --color-black: #000;
+    --color-white: #fff;
+
+    --color-blue-100: #f7fbff;
+    --color-blue-200: #e8f2ff;
+    --color-blue-300: #f0f8ff;
+    --color-blue-500: #4b96ff;
+    --color-blue-600: #0f64bbde;
+    --color-blue-700: #302BED;
+    --color-blue-800: #2A2854;
+
+    --color-slate-500: #a9adc1;
+
+    --color-gray-50: #fafafa;
+    --color-gray-100: #f7f7f7;
+    --color-gray-200: #e6e9ee;
+    --color-gray-300: #dde0e4;
+    --color-gray-400: #818890;
+    --color-gray-500: #535661;
+    --color-gray-600: #4b4c53;
+    --color-gray-700: #3a3d4a;
+    --color-gray-800: #2e3039;
+    --color-gray-900: #1f2028;
+
+    --color-red-500: #BA2B22;
+
+    --color-yellow-500: #ffd644;
+
+    /* font sizes */
+    --font-size-small: 0.87em;
+
+    --font-size-text: 1.10em;
+    --font-size-regular: 1.5em;
+    --font-size-medium: 2em;
+    --font-size-large: 2.35em;
+
+    /* other */
+    --box-shadow-1: 0 0 20px rgba(0, 0, 0, 0.15);
+    --box-shadow-2: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.20);
+    --box-shadow-3: 0 6px 10px 0 rgb(169,3,3,.21), 0 1px 18px 0 rgb(209,11,11,.12), 0 3px 5px -1px rgb(116,9,9,.25);
+    --box-shadow-4: 0 0 5px 3px rgba(0, 0, 0, 0.05);
+    --box-shadow-5: 0 2px 3px 0 rgb(60 64 67 / 15%), 0 6px 10px 4px rgb(60 64 67 / 15%);
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    place-items: center;
+}
+
+h1 {
+    font-size: var(--font-size-large);
+    color: var(--color-gray-600);
+    font-weight: 300;
+}
+h2 {
+    font-size: var(--font-size-medium);
+    color: var(--color-gray-600);
+    font-weight: 500;
+}
+
+p {
+    font-size: var(--font-size-text);
+}
+
+button:focus,
+button:focus-visible {
+    outline: none;
+}
+
